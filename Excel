@@ -1,0 +1,6 @@
+To highlight cell in a date-column, which has date fall in Sat or Sun:
+* Select column.
+* Conditional Formatting -> New Rule..
+  * In "New Formatting Rule..." dialog, select "User a formula to determine which cell to format"
+  * Provide formula: =WEEKDAY($B1,2)>5
+  * Provide format option.
